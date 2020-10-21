@@ -3,3 +3,5 @@ geckodriver.log
 virtualenv
 __pycache__
 *.pyc
+geckodriver.log
+geckodriver.exe
