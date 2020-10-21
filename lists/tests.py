@@ -10,6 +10,7 @@ class HomePageTest(TestCase):
             '<title>To-Do lists</title>',
             response.content.decode()
         )
+        print(response.content)
         self.assertTrue(response.content.decode().startswith('<html>'))
         self.assertTrue(response.content.decode().endswith('</html>'))
     
